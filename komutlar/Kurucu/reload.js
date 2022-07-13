@@ -11,18 +11,18 @@ exports.run = (client, message, args) => {
     command = client.aliases.get(args.slice(0).join(' '));
   }
 
-  if (!args[0]) return message.reply("komut ısmı yazmassan nası baslatcm")
+  if (!args[0]) return message.reply("Komut ismi yazmalısın")
   if (!command) {
 
-    return message.reply("Botta `" + args.slice(0).join(' ') + "` komutu bulamıyorum");
+    return message.reply("Botta `" + args.slice(0).join(' ') + "` komutunu bulamıyorum");
   } else {
 
-    message.channel.send("`" + command + "` ısmındekı komutu yenıde baslatıorum suan bekle...")
+    message.channel.send("`" + command + "` adlı komut yeniden başlatılıyor...")
       .then(message => {
 
         client.reload(command)
           .then(() => {
-            message.edit("`" + command + "` komut yenıden baslatıldı ");
+            message.edit("`" + command + "` komut yeniden başlatıldı");
           })
 
           .catch(e => {
