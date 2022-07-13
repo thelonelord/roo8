@@ -16,7 +16,8 @@
 
 - botu başlatmak için `node .`
 
-<br/>
+Altyapı 2021den kalmıştır artık minecaft sunucum için bot yapacağım için paylaşmak istedim.
+
 <br/>
 
 ***
