@@ -14,7 +14,7 @@
 
 - modülleri indirmek için `npm install` 
 
-- botu başlatmak için `node .`
+- botu başlatmak için `node shard.js`
 
 Altyapı 2021den kalmıştır minecraft sunucum için bot yaptığımdan dolayı paylaşmak istedim. Altyapıya güncelleme gelmiyecektir hata varsa discord `Thelonelord#1972`
 
