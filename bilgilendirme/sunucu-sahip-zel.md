@@ -1,6 +1,0 @@
-  if(message.author.id !== message.guild.owner.id) return message.channel.send(new Discord.MessageEmbed()
-   .setTitle('Bir hata oldu')
-   .setDescription('**• Bu kullanmak için `Sunucu sahibi` olmalısın..**')
-   .addField('Sunucu sahibi', `${message.guild.owner}`)
-   .setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
-   .setColor('#743c8c')).then(msg => msg.delete({timeout: 3000}))
