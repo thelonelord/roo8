@@ -6,7 +6,7 @@
 <br/>
 - **node.js v12 yada üstü gerekir**
 
-- PREFIX TOKEN SAHİP VE EMBED RENGİ'ni  `./ayarlar.json` dosyasına yerleştirin
+- PREFIX, TOKEN, SAHİP VE EMBED RENGİ'ni  `./ayarlar.json` dosyasına yerleştirin
 
 - Botla ilgili detayları `./index.js` dosyasının içinden düzenleyin (28 ile 56.satır arası)
 
@@ -16,7 +16,7 @@
 
 - botu başlatmak için `node .`
 
-Altyapı 2021den kalmıştır artık minecaft sunucum için bot yapacağım için paylaşmak istedim.
+Altyapı 2021den kalmıştır minecraft sunucum için bot yaptığımdan dolayı paylaşmak istedim. Altyapıya güncelleme gelmiyecektir hata varsa discord `Thelonelord#1972``
 
 <br/>
 
