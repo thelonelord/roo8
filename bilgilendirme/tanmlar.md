@@ -1,0 +1,1 @@
+\${client.emojis.cache.get(client.emojiler.onay8)}
